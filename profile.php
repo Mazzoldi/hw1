@@ -76,7 +76,8 @@
                 <p>Le tue squadre preferite:</p>
                 <ul class="favourites">
                     <div class="list">
-                        <div><?php
+                        <div <?php if(empty($favourites)) echo "class='hidden'";?>>
+                        <?php
                             if(!empty($favourites)){
                                 $teams = array();
                                 foreach($favourites as $favourite){
