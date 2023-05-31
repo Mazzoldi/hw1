@@ -7,6 +7,9 @@ function checkName(event) {
             input.parentNode.classList.add('errorj');
         }
     }
+    else {
+        input.parentNode.classList.add('errorj');
+    }
 }
 
 function checkSurname(event) {
@@ -17,6 +20,9 @@ function checkSurname(event) {
         } else {
             input.parentNode.classList.add('errorj');
         }
+    }
+    else {
+        input.parentNode.classList.add('errorj');
     }
 }
 
